@@ -2,8 +2,6 @@ body {
     background-color: #0A0606;
     color: #00ff00;
     font-family: "Courier New", Courier, monospace;
-    margin: 0%;
-    padding: 0%;
 }
 
 h1,
@@ -23,6 +21,11 @@ p {
     -webkit-text-stroke: 0.25px #d3d3d3;
 }
 
+nav {
+    background-color: #009e00;
+    padding: 10px 0px;
+}
+
 nav ul {
     width: 100%;
     list-style-type: none;
@@ -34,12 +37,14 @@ nav ul {
 
 nav ul li {
     margin-right: 50px;
+    -webkit-text-stroke: 1px #000000;
 }
 
 nav ul li a {
     text-decoration: dashed underline;
     font-weight: bold;
     font-size: x-large;
+    color: #00ff00;
 }
 
 nav ul li a:visited {
@@ -47,5 +52,18 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    color: #009e00;
+    color: #000000;
+}
+
+iframe {
+    color: #00ff00;
+    background-color: #009e00;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+
 }
