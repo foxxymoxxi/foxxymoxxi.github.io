@@ -12,15 +12,15 @@ Foxxy Moxxi github website
 
 ### Feature checklist (tick as you decide)
 
-- [] Hero section with tagline & CTA (“Download Resume” button)
-- [] “About Me” brief bio + tech‑support timeline graphic
-- [] Skills matrix (icons + proficiency bars)
-- [] Projects gallery (cards → modal or detail page)
-- [] Embedded demo app (e.g., a ticket‑tracker SPA)
-- [] Resume page + PDF download link
-- [] Contact form (email or Formspree)
-- [] Code snippets or “View on GitHub” badges for each project
-- [] Footer with social links, copyright, and a “Built with …” note
-- [] Responsive design (mobile‑first)
-- [] SEO basics (meta tags, Open Graph)
-- [] CI/CD pipeline (GitHub Actions → GitHub Pages → home server)
+- [ ] Hero section with tagline & CTA (“Download Resume” button)
+- [ ] “About Me” brief bio + visual timeline of work experience
+- [ ] Skills matrix (icons + proficiency bars)
+- [ ] Projects gallery (cards → modal or detail page)
+- [ ] Embedded demo app (e.g., a ticket‑tracker SPA)
+- [ ] Resume page + PDF download link
+- [ ] Contact form (email or Formspree)
+- [ ] Code snippets or “View on GitHub” badges for each project
+- [ ] Footer with social links, copyright, and a “Built with …” note
+- [ ] Responsive design (mobile‑first?)
+- [ ] SEO basics (meta tags, Open Graph)
+- [ ] CI/CD pipeline (GitHub Actions → GitHub Pages → home server)
