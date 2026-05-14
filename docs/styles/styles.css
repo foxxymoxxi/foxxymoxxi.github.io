@@ -9,7 +9,6 @@ h2,
 h3 {
     color: #00ff00;
     -webkit-text-stroke: 1.5px #008b00;
-    ;
 }
 
 h1 {
@@ -65,43 +64,40 @@ iframe {
     justify-content: center;
     margin-top: 20px;
     width: 100%;
-
 }
 
 #about-body {
-    background-color:hsl(120 100% 50%);
+    background-color: hsl(120 100% 50%);
     padding: 5px;
     border: #d3d3d3 5px solid;
     margin: 0 auto;
     width: 95%;
-    height: auto;
-    position: absolute;
+    max-width: 1200px;
+    margin-bottom: 40px;
 }
 
 #about-body-left {
-    float: inline-start;
+    float: left;
+    margin-right: 20px;
     max-width: 40%;
-    }
+}
 
 #about-body-left img {
-    max-height: 70%;
-    float: left;
-    border: 5px;
-    border-color: rgb(84, 174, 253);
-    border-style: solid;
+    max-height: 300px;
+    max-width: 100%;
+    border: 5px solid rgb(84, 174, 253);
     border-radius: 10px;
-    float:left;
 }
 
 #about-body-right {
+    float: left;
     width: 60%;
     padding: 20px;
     position: relative;
 }
 
 #about-body-right p {
-    color: #000000;
-    -webkit-text-stroke: 0.25px #008b00;
+    color: #008b00;
     font-weight: bold;
-    float: right;
+    line-height: 1.6;
 }
