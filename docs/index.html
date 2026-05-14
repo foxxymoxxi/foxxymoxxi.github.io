@@ -11,26 +11,285 @@
 
 <body>
 
-    <h1>Welcome to Foxxy Moxxi's Den!</h1>
-    <p>Here you can find all the latest news and updates about Foxxy Moxxi and her adventures.</p>
-    <p>Stay tuned for more exciting content coming soon!</p>
-
     <nav>
+        <h2 class="typing-effect" style="margin: 0 0 10px 0; color: #000000; font-size: 1.2em; font-weight: bold; -webkit-text-stroke: #000000;">> Welcome to Foxxy Moxxi's Den! </h2>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="unvisited.html">Unvisited</a></li>
         </ul>
     </nav>
 
-    <h1>Home</h1>
+    <div id="about-body" style="margin-top:100px">
+        <!-- Top row: Image + Bio -->
+        <div class="about-top-row">
+            <div id="about-body-left">
+                <img src="media/moxxi.jpg" alt="Foxxy Moxxi" class="about-image">
+            </div>
+            <div id="about-body-right">
+                <p>
+                <strong>I am an extremely knowledgable, cross-domain professional</strong> with over 12 years of experience in technical support in helpdesk roles, 12 years of experience with digital media (everything from video editing, photography, web design, etc.), 2 years of systems administration, and 2 years of QA testing.  I specialize in automating software deployments using BASH and PowerShell, managing enterprise systems, and streamlining device imaging processes.
+                <br><br>
+                My journey has taken me from supporting classrooms and faculty at both the University of Washington and South Puget Sound Community College to closing over <b><i><u>1,200</u></i></b> bugs while doing QA testing at Bungie on the live-service AAA shooter Destiny 2. I've also worked in data annotation, IT systems administration, and now continue to pursue my passion for automation and creative projects.
+                <br><br>
+                Beyond the terminal, I have a passion for storytelling and aesthetics, creating engaging multimedia content that resonates across platforms. Whether I'm scripting deployments, testing games, or editing videos, I bring the same dedication to detail and love for technology to every project.
+                </p>
+            </div>
+        </div>
 
-    <h2>Project Checklist</h2>
+        <!-- Bottom row: Full-width section -->
+        <div class="about-bottom-row">
+            <div class="full-width-section">
+                
+                <h3 style="color: #ff9500; font-weight: bold; margin: 0 0 15px 0; padding-bottom: 5px; border-bottom: 1px dashed #ff9500; -webkit-text-stroke: #000;">Contact</h3>
+                <div class="contact-section">
+                    <p><strong>Email:</strong> <a href="mailto:moxximewws@gmail.com">moxximewws@gmail.com</a></p>
+                    <p><strong>Location:</strong> <a href="https://maps.app.goo.gl/6c5kWodJC4wqQPDv9" target="_blank">Seattle, WA, USA</a></p>
+                    <p><strong>BlueSky:</strong> <a href="https://bsky.app/profile/moxximewws.com" target="_blank">bsky.app/profile/moxximewws.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/foxxymoxxi" target="_blank">github.com/foxxymoxxi</a></p>
+                </div>
 
-    <iframe src="../../README.md" width="100%" height="400px"></iframe>
+            </div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tab-navigation">
+            <button class="tab-button active" onclick="openTab('skills')">Skills Matrix</button>
+            <button class="tab-button" onclick="openTab('experience')">Work Experience</button>
+            <button class="tab-button" onclick="openTab('education')">Education</button>
+            <button class="tab-button" onclick="openTab('tools')">Tools & Technologies</button>
+            <button class="tab-button" onclick="openTab('resume')">Resume</button>
+        </div>
+
+        <!-- Tab Content - Skills -->
+        <div id="skills" class="tab-content" style="display: block;">
+            <h3>Skills Matrix</h3>
+            <div id="skills-container">
+                <div class="skill-category">
+                    <h4>🛠️ Programming Languages</h4>
+                    <ul>
+                        <li><strong>BASH</strong>: Advanced automation, scripting, deployment</li>
+                        <li><strong>PowerShell</strong>: Windows automation, system administration</li>
+                        <li><strong>Python</strong>: Scripting, automation, data processing</li>
+                        <li><strong>HTML/CSS</strong>: Web development, portfolio design</li>
+                        <li><strong>C#</strong>: Learning, game development</li>
+                        <li><strong>Git</strong>: Version control, repository management</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>💻 Systems & Administration</h4>
+                    <ul>
+                        <li><strong>Operating Systems</strong>: Windows 10/11, macOS, Linux (Arch, Ubuntu)</li>
+                        <li><strong>Cloud Platforms</strong>: Microsoft Azure, Google Cloud Platform</li>
+                        <li><strong>Containerization</strong>: Docker, Kubernetes</li>
+                        <li><strong>Network Administration</strong>: TCP/IP, networking, Wireshark</li>
+                        <li><strong>Enterprise Systems</strong>: CRM, Active Directory, help desk</li>
+                        <li><strong>Hardware</strong>: Device imaging, deployment, troubleshooting</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🔧 DevOps & Tools</h4>
+                    <ul>
+                        <li><strong>Automation</strong>: BASH, PowerShell scripting</li>
+                        <li><strong>CI/CD</strong>: GitHub Actions, deployment pipelines</li>
+                        <li><strong>Monitoring</strong>: Datadog, performance monitoring</li>
+                        <li><strong>Infrastructure as Code</strong>: Puppet, Ansible</li>
+                        <li><strong>Documentation</strong>: Confluence, wikis, technical writing</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🎨 Creative & Design</h4>
+                    <ul>
+                        <li><strong>Graphic Design</strong>: Canva, Adobe Creative Suite</li>
+                        <li><strong>Video Editing</strong>: Adobe Premiere, DaVinci Resolve</li>
+                        <li><strong>UI/UX Design</strong>: Interface design, user experience</li>
+                        <li><strong>Information Architecture</strong>: Content organization, navigation</li>
+                        <li><strong>Web Design</strong>: WordPress, responsive design</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📊 Quality Assurance</h4>
+                    <ul>
+                        <li><strong>Bug Tracking</strong>: JIRA, TFS/Azure DevOps</li>
+                        <li><strong>Testing Methodologies</strong>: Regression, load, functionality testing</li>
+                        <li><strong>Game QA</strong>: Platform testing (Xbox, PlayStation, PC)</li>
+                        <li><strong>Testing Tools</strong>: Debug software, proprietary tools</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📱 Collaboration Tools</h4>
+                    <ul>
+                        <li><strong>Project Management</strong>: JIRA, SCRUM, Agile</li>
+                        <li><strong>Communication</strong>: Zendesk, customer service</li>
+                        <li><strong>Productivity</strong>: Microsoft Office 365, Google Workspace</li>
+                        <li><strong>Documentation</strong>: Confluence, Google Docs</li>
+                        <li><strong>Social Media</strong>: Hootsuite, social media management</li>
+                        <li><strong>Analytics</strong>: Google Analytics</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🎮 Gaming & Development</h4>
+                    <ul>
+                        <li><strong>Game Engines</strong>: Unity, Unreal Engine</li>
+                        <li><strong>QA Testing</strong>: Game testing, bug reporting</li>
+                        <li><strong>Game Design</strong>: Mission walkthroughs, feature documentation</li>
+                        <li><strong>Debug Tools</strong>: Proprietary software, test frameworks</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🌐 Web Technologies</h4>
+                    <ul>
+                        <li><strong>Web Development</strong>: HTML, CSS, JavaScript</li>
+                        <li><strong>Content Management</strong>: WordPress</li>
+                        <li><strong>SEO</strong>: Search engine optimization</li>
+                        <li><strong>Google Analytics</strong>: Web analytics, tracking</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📚 Professional Skills</h4>
+                    <ul>
+                        <li><strong>Documentation</strong>: Technical writing, knowledge management</li>
+                        <li><strong>Communication</strong>: Cross-functional collaboration</li>
+                        <li><strong>Problem Solving</strong>: Troubleshooting, analysis</li>
+                        <li><strong>Training</strong>: User training, technical instruction</li>
+                        <li><strong>Event Management</strong>: Tech/AV planning, support</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🎯 Interests</h4>
+                    <ul>
+                        <li><strong>Video Games</strong>: Game design, development, testing</li>
+                        <li><strong>Computer Hardware</strong>: Components, troubleshooting</li>
+                        <li><strong>Networking</strong>: Networks, protocols, security</li>
+                        <li><strong>Quality Assurance</strong>: Testing methodologies, bug tracking</li>
+                        <li><strong>Creative Pursuits</strong>: Content creation, design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content - Work Experience -->
+        <div id="experience" class="tab-content" style="display: none;">
+            <h3>Work Experience</h3>
+            <div class="experience-section">
+                <div class="experience-item">
+                    <h4>University of Washington</h4>
+                    <p><strong>Computer Support Technician 1</strong> | April 2025 - October 2025 | Seattle, WA</p>
+                    <ul>
+                        <li>End-User Assistance: Comprehensive support for Windows and Macintosh platforms</li>
+                        <li>Enterprise Systems: Primary support for CRM, Scholarship Management, Video Recording Systems</li>
+                        <li>Device Management: Device imaging, deployment, troubleshooting for computer labs</li>
+                        <li>Classroom Technology: Support and maintenance of educational technology</li>
+                        <li>Documentation: Developed user documentation and help desk articles</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Bungie</h4>
+                    <p><strong>Contract Generalist Tester</strong> | November 2022 - May 2024 | Bellevue, WA</p>
+                    <ul>
+                        <li>Closed over 1.2K bugs, primarily high severity (severity 1 & 2)</li>
+                        <li>Wrote detailed bug reports in TFS (Azure DevOps)</li>
+                        <li>Performed end-to-end experience testing across Xbox, PlayStation, PC platforms</li>
+                        <li>Communicated with QA Leads and Testers to assess test coverage</li>
+                        <li>Documented game specifications and known issues in Confluence</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Zillow</h4>
+                    <p><strong>Data Annotation Judge</strong> | October 2021 - October 2022 | Remote</p>
+                    <ul>
+                        <li>Created floorplans for homes using proprietary software</li>
+                        <li>Suggested features and improvements to development teams</li>
+                        <li>Maintained production quota to adhere to 24-hour SLA times</li>
+                        <li>Referenced robust wiki of annotating policies</li>
+                        <li>QA'd own work before submission</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Indeed</h4>
+                    <p><strong>IT Systems Administrator</strong> | December 2018 - April 2021 | Seattle, WA</p>
+                    <ul>
+                        <li>Maintained computer networks and computing environments</li>
+                        <li>Collaborated with open source communities (Samba, Puppet)</li>
+                        <li>Diagnosed and resolved hardware, software, and network issues</li>
+                        <li>Monitored computer system performance</li>
+                    </ul>
+                    
+                    <p><strong>IT Support Specialist</strong> | September 2016 - December 2018 | Seattle, WA</p>
+                    <ul>
+                        <li>Provisioned new hire equipment and run IT orientation classes</li>
+                        <li>Improved computer imaging process via BASH scripting</li>
+                        <li>Single point of contact for ~100-person Seattle office hardware support</li>
+                        <li>Liaised between technical services departments</li>
+                        <li>Maintained documentation for IT policies and procedures</li>
+                        <li>Member of iPride ERG, advocating for LGBTQ+ inclusive policies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content - Education -->
+        <div id="education" class="tab-content" style="display: none;">
+            <h3>Education</h3>
+            <div class="education-section">
+                <div class="education-item">
+                    <h4>South Puget Sound Community College</h4>
+                    <p><strong>Associate's Degree in Computer Science</strong> | September 2013 - June 2015</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content - Tools -->
+        <div id="tools" class="tab-content" style="display: none;">
+            <h3>Tools & Technologies</h3>
+            <div class="tools-section">
+                <p><strong>Skills:</strong> Excel/Numbers/Sheets, Zendesk, Computer Networking, Confluence, Customer Service, Datadog, Docker, Inventory Management, JIRA, Journalism, Kubernetes, Linux/Unix, Operating Systems, PowerPoint/Keynote/Slides, Puppet, Software Testing, TCP/IP, Unity, Unreal Engine, Video Editing, Web Development, Wireshark, Word/Pages/Docs, Atlassian, Canva, Communications, Google Analytics, Google Cloud Platform, Hootsuite, Information Architecture, Kali Linux, Microsoft Azure, Quality Assurance (QA), SCRUM, SEO, ServiceNow, Social Media, UI/UX Design, Visio, Wordpress</p>
+                
+                <p><strong>Coding:</strong> Bash, Python, HTML/CSS, C#, Git, PowerShell</p>
+            </div>
+        </div>
+
+        <!-- Tab content - Resume  -->
+        <div id="resume" class="tab-content" style="display: none;">
+            <h3>Resume</h3>
+            <div class="resume-container">
+                <iframe src="moxxi_resume.pdf" width="95%" height="1000px"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript for Tab Functionality -->
+    <script>
+        function openTab(tabName) {
+            // Hide all tab content
+            var tabContents = document.querySelectorAll('.tab-content');
+            for (var i = 0; i < tabContents.length; i++) {
+                tabContents[i].style.display = 'none';
+            }
+            
+            // Remove active class from all buttons
+            var buttons = document.querySelectorAll('.tab-button');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove('active');
+            }
+            
+            // Show the current tab content and add active class to button
+            document.getElementById(tabName).style.display = 'block';
+            event.target.classList.add('active');
+        }
+    </script>
 
 </body>
 
