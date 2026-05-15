@@ -96,6 +96,13 @@ iframe {
     transition: all 0.3s ease;
 }
 
+.tab-heading {
+    color: #fff;
+    -webkit-text-stroke: #000000 0.6px;
+    font-size: 1.5em;
+    background-color: rgba(0, 30, 0, 0.6);
+}
+
 .tab-button:hover {
     background-color: #00ff00;
     color: #0a3d0a;
@@ -146,6 +153,52 @@ iframe {
 .tab-content h3 {
     margin-top: 0;
     animation-delay: 0.2s;
+}
+
+.tab-section {
+    background-color: rgba(0, 40, 0, 0.8);
+    border-left: 3px solid #ff9500;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tab-section h4 {
+    color: #ff9500;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.tab-section p {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    font-size: 0.9em;
+    margin: 0 0 8px 0;
+}
+
+.tab-section p strong {
+    font-size: 0.95em;
+    color: #ff9500;
+}
+
+.tab-section ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tab-section li {
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    font-size: 0.85em;
+}
+
+.tab-section li strong {
+    font-size: 0.95em;
+    color: #ff9500;
 }
 
 /* About body layout */
@@ -237,140 +290,6 @@ iframe {
     border-bottom: 1px dashed #ff9500;
 }
 
-/* Experience items (each job gets its own border-left) */
-.experience-item {
-    background-color: rgba(0, 40, 0, 0.6);
-    border-left: 3px solid #ff9500;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.experience-item h4 {
-    color: #ff9500;
-    font-weight: bold;
-    margin: 0 0 8px 0;
-}
-
-.experience-item p {
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-    line-height: 1.5;
-    font-size: 0.9em;
-    margin: 0 0 8px 0;
-}
-
-.experience-item ul {
-    margin: 0;
-    padding-left: 20px;
-}
-
-.experience-item li {
-    color: #fff;
-    font-size: 0.9em;
-    line-height: 1.6;
-    margin-bottom: 5px;
-    font-size: 0.85em;
-}
-
-.experience-item li strong {
-    font-size: 0.95em;
-    color: #ff9500;
-}
-
-/* Education items */
-.education-item {
-    background-color: rgba(0, 40, 0, 0.6);
-    border-left: 3px solid #ff9500;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.education-item h4 {
-    font-weight: bold;
-    margin: 0 0 5px 0;
-    font-size: 1.05em;
-    color: #ff9500;
-}
-
-.education-item p {
-    color: #fff;
-    font-size: 0.9em;
-    margin: 0;
-}
-
-/* Skills container - no border-left on container, only on individual categories */
-#skills-container {
-    margin-bottom: 20px;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-.skill-category {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: rgba(0, 50, 0, 0.6);
-    border-left: 3px solid #ff9500;
-}
-
-.skill-category h4 {
-    color: #ff9500;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-    background-color: rgba(0, 50, 0, 0.2);
-    border-radius: 3px;
-    font-size: 1em;
-    padding: 4px;
-}
-
-.skill-category ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.skill-category li {
-    margin-bottom: 4px;
-    color: #fff;
-    line-height: 1.4;
-    display: flex;
-    align-items: center;
-    font-size: 0.85em;
-}
-
-.skill-category li::before {
-    content: "✓ ";
-    color: #ff9500;
-    margin-right: 8px;
-    font-weight: bold;
-}
-
-.skill-category li strong {
-    color: #ff9500;
-    font-weight: bold;
-}
-
-/* Tools section */
-.tools-section {
-    background-color: rgba(0, 30, 0, 0.6);
-    border-radius: 5px;
-    border-left: 3px solid #ff9500;
-    padding: 12px;
-}
-
-.tools-section p {
-    color: #fff;
-    font-size: 0.9em;
-    line-height: 1.8;
-    margin: 25px;
-}
-
-.tools-section strong {
-    color: #ff9500;
-}
-
 /* Resume tab content */
 
 .resume-container {
@@ -458,32 +377,6 @@ iframe {
     /* Tab content */
     .tab-content {
         padding: 12px;
-    }
-
-    /* Skills container */
-    #skills-container {
-        margin-bottom: 15px;
-    }
-
-    .skill-category {
-        margin-bottom: 12px;
-        padding: 8px;
-    }
-
-    /* Experience items */
-    .experience-item {
-        padding: 12px;
-        margin-bottom: 15px;
-    }
-
-    .experience-item h4 {
-        font-size: 1.05em;
-        margin: 0 0 6px 0;
-    }
-
-    /* Education items */
-    .education-item {
-        padding: 8px;
     }
 
     /* Resume iframe */
