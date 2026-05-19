@@ -15,7 +15,7 @@
         style="margin: 0 0 10px 0; color: #000000; font-size: 1.2em; font-weight: bold; -webkit-text-stroke: #000000; background-color: #00ff88;">
         &gt; Welcome to Foxxy Moxxi's Den! </h2>
 
-    <div id="about-body" style="margin-top:100px">
+    <div id="about-body" style="margin-top:25px">
         <!-- Top row: Image + Bio -->
         <div class="about-top-row">
             <div id="about-body-left">
@@ -306,82 +306,89 @@
         </p>
         <!-- Hit Counter Widget - Herenow.js Privacy-Friendly Counter 🟢 -->
         <div class="herenow-counter-wrapper" style="position: fixed; bottom: 10px; right: 10px; z-index: 1000;">
-            <div class="herenow-container" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #1a1a1a 0%, #1f1f1a 100%); padding: 8px 16px; border-radius: 9999px; box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3); border: 2px solid #00ff88;">
-                <span class="dot" style="width: 8px; height: 8px; background-color: #00ff88; border-radius: 50%; animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
+            <div class="herenow-container"
+                style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #1a1a1a 0%, #1f1f1a 100%); padding: 8px 16px; border-radius: 9999px; box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3); border: 2px solid #00ff88;">
+                <span class="dot"
+                    style="width: 8px; height: 8px; background-color: #00ff88; border-radius: 50%; animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
                 <span class="herenow" style="font-weight: 600; font-size: 13px; color: #00ff88;">
                     <span class="herenow-count">0</span> users here now
 
-    <!-- Hit Counter Widget - Herenow.js Privacy-Friendly Counter 🟢 -->
-    <div class="herenow-counter-wrapper" style="position: fixed; bottom: 10px; right: 10px; z-index: 1000;">
-        <div class="herenow-container" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #1a1a1a 0%, #1f1f1a 100%); padding: 8px 16px; border-radius: 9999px; box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3); border: 2px solid #00ff88;">
-            <span class="dot" style="width: 8px; height: 8px; background-color: #00ff88; border-radius: 50%; animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
-            <span class="herenow" style="font-weight: 600; font-size: 13px; color: #00ff88;">
-                <span class="herenow-count">0</span> users here now
-            </span>
-        </div>
-    </div>
+                    <!-- Hit Counter Widget - Herenow.js Privacy-Friendly Counter 🟢 -->
+                    <div class="herenow-counter-wrapper"
+                        style="position: fixed; bottom: 10px; right: 10px; z-index: 1000;">
+                        <div class="herenow-container"
+                            style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #1a1a1a 0%, #1f1f1a 100%); padding: 8px 16px; border-radius: 9999px; box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3); border: 2px solid #00ff88;">
+                            <span class="dot"
+                                style="width: 8px; height: 8px; background-color: #00ff88; border-radius: 50%; animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
+                            <span class="herenow" style="font-weight: 600; font-size: 13px; color: #00ff88;">
+                                <span class="herenow-count">0</span> users here now
+                            </span>
+                        </div>
+                    </div>
 
-    <!-- Tab Functionality Script -->
-    <script>
-        function openTab(tabName) {
-            // Hide all tab content
-            var tabContents = document.querySelectorAll('.tab-content');
-            for (var i = 0; i < tabContents.length; i++) {
-                tabContents[i].style.display = 'none';
-            }
+                    <!-- Tab Functionality Script -->
+                    <script>
+                        function openTab(tabName) {
+                            // Hide all tab content
+                            var tabContents = document.querySelectorAll('.tab-content');
+                            for (var i = 0; i < tabContents.length; i++) {
+                                tabContents[i].style.display = 'none';
+                            }
 
-            // Remove active class from all buttons
-            var buttons = document.querySelectorAll('.tab-button');
-            for (var i = 0; i < buttons.length; i++) {
-                buttons[i].classList.remove('active');
-            }
+                            // Remove active class from all buttons
+                            var buttons = document.querySelectorAll('.tab-button');
+                            for (var i = 0; i < buttons.length; i++) {
+                                buttons[i].classList.remove('active');
+                            }
 
-            // Show the current tab content and add active class to button
-            document.getElementById(tabName).style.display = 'block';
-            event.target.classList.add('active');
-        }
-    </script>
+                            // Show the current tab content and add active class to button
+                            document.getElementById(tabName).style.display = 'block';
+                            event.target.classList.add('active');
+                        }
+                    </script>
 
-    <!-- Hit Counter Styles - Herenow.js 🟢 -->
-    <style>
-        .herenow-container {
-            background: linear-gradient(135deg, #1a1a1a 0%, #1f1f1a 100%);
-            border: 2px solid #00ff88;
-            padding: 8px 16px;
-            border-radius: 9999px;
-            font-family: 'Courier New', monospace;
-            font-size: 13px;
-            color: #00ff88;
-            box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3);
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            
-            @keyframes pulse {
-                50% { opacity: .5; }
-            }
-        }
+                    <!-- Hit Counter Styles - Herenow.js 🟢 -->
+                    <style>
+                        .herenow-container {
+                            background: linear-gradient(135deg, #1a1a1a 0%, #1f1f1a 100%);
+                            border: 2px solid #00ff88;
+                            padding: 8px 16px;
+                            border-radius: 9999px;
+                            font-family: 'Courier New', monospace;
+                            font-size: 13px;
+                            color: #00ff88;
+                            box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3);
+                            display: inline-flex;
+                            align-items: center;
+                            gap: 6px;
 
-        .dot {
-            width: 8px;
-            height: 8px;
-            background-color: #00ff88;
-            border-radius: 50%;
-            animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-        
-        .herenow {
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-        
-        .herenow-count {
-            font-weight: bold;
-        }
-    </style>
+                            @keyframes pulse {
+                                50% {
+                                    opacity: .5;
+                                }
+                            }
+                        }
 
-    <!-- Hit Counter Script - Herenow.js -->
-    <script src="https://wgx.github.io/herenow/herenow.min.js" defer async></script>
+                        .dot {
+                            width: 8px;
+                            height: 8px;
+                            background-color: #00ff88;
+                            border-radius: 50%;
+                            animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+                        }
+
+                        .herenow {
+                            font-weight: 600;
+                            letter-spacing: 0.5px;
+                        }
+
+                        .herenow-count {
+                            font-weight: bold;
+                        }
+                    </style>
+
+                    <!-- Hit Counter Script - Herenow.js -->
+                    <script src="https://wgx.github.io/herenow/herenow.min.js" defer async></script>
 
 
 </html>
