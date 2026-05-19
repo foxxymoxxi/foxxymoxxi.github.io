@@ -55,20 +55,34 @@ iframe {
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid #00ff00;
-    animation: 
-        typeFull 3.5s steps(30, end),
+    animation:
+        typeFull 1.5s steps(30, end),
         blinkCursor 0.75s step-end infinite;
     max-width: 100%;
 }
 
 @keyframes typeFull {
-    0% { width: 0; }
-    100% { width: 100%; }
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 25%;
+    }
 }
 
 @keyframes blinkCursor {
-    0%, 50% { border-color: #00ff00; }
-    51%, 100% { border-color: transparent; }
+
+    0%,
+    50% {
+        border-color: #000;
+    }
+
+    51%,
+    100% {
+        border-color: transparent;
+        border-right: #fff solid 2px;
+    }
 }
 
 /* Tab navigation */
@@ -144,6 +158,7 @@ iframe {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -313,6 +328,7 @@ iframe {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
+
     /* Increase base font size for mobile */
     body {
         font-size: 16px;
