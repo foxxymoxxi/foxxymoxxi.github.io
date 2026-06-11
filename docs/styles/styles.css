@@ -143,7 +143,8 @@ iframe {
 
 .tab-content[style*="display: block"] {
     opacity: 1;
-    max-height: 2000px;
+    max-height: 1500px;
+    overflow-y: auto;
     transform: translateY(0);
 }
 
